@@ -1,0 +1,29 @@
+/* TEXT SELECT */
+::-moz-selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #fe57a1;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* TEXTAREA */
+textarea {
+	font-family: courier !important;
+}
+
+/* BLOCL LINKS */
+a {
+	margin-left: 4px;
+	color: dodgerblue;
+	padding: 7px;
+}
+a:hover { 
+	text-decoration: none;
+	color: white;
+	background-color: dodgerblue;
+	padding: 7px;
+}
